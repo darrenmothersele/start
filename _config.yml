@@ -1,0 +1,2 @@
+name: My Prototype
+exclude: [README.md, bower.json, config.rb, scss]
