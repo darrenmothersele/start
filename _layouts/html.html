@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{  }}</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <script src="/js/vendor/modernizr.js"></script>
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}css/style.css" />
+    <script src="{{site.baseurl}}js/vendor/modernizr.js"></script>
   </head>
   <body>
 
     {{ content }}
 
-    <script src="/js/vendor/jquery.js"></script>
-    <script src="/js/vendor/foundation.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="{{site.baseurl}}js/vendor/jquery.js"></script>
+    <script src="{{site.baseurl}}js/vendor/foundation.min.js"></script>
+    <script src="{{site.baseurl}}js/script.js"></script>
   </body>
 </html>
