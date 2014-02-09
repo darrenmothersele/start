@@ -56,3 +56,10 @@ useful Jekyll plugins.
  * [Jekyll Compass](https://gist.github.com/darrenmothersele/8899153)
  * [Image Tag](http://octopress.org/docs/plugins/image-tag/)
  * [Asset Path Tag](https://github.com/samrayner/jekyll-asset-path-plugin)
+
+I've also added the Entypo gyphicon font for creating icons:
+
+ * [Entypo](http://www.entypo.com/characters/)
+
+
+
